@@ -1,0 +1,48 @@
+{
+  "title": "일본 중고 카메라 마켓 크로스샵 비교",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchKeyword": {
+      "title": "검색 키워드",
+      "type": "string",
+      "description": "카메라/렌즈 이름 (비우면 전체 카테고리 스캔)",
+      "prefill": "α7",
+      "editor": "textfield"
+    },
+    "maxItems": {
+      "title": "최대 수집 개수",
+      "type": "integer",
+      "description": "최대 수집 상품 수",
+      "default": 100,
+      "minimum": 1
+    },
+    "maxPages": {
+      "title": "최대 페이지 수",
+      "type": "integer",
+      "description": "소스별 최대 페이지 수",
+      "default": 2,
+      "minimum": 1
+    },
+    "sources": {
+      "title": "데이터 소스",
+      "type": "string",
+      "description": "쉼표 구분 (kitamura,fujiya)",
+      "default": "kitamura,fujiya",
+      "editor": "textfield"
+    },
+    "proxyConfiguration": {
+      "title": "프록시 설정",
+      "type": "object",
+      "editor": "proxy",
+      "description": "Apify 프록시 (자동)",
+      "default": {
+        "useApifyProxy": true
+      },
+      "prefill": {
+        "useApifyProxy": true
+      }
+    }
+  },
+  "required": []
+}

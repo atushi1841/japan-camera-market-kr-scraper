@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-camera-market-kr-scraper",
+  "title": "일본 중고 카메라 마켓 — 크로스샵 비교（Kitamura+Fujiya）",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./INPUT_SCHEMA.json"
+}
