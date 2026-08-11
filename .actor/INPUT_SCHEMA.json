@@ -31,6 +31,20 @@
       "default": "kitamura,fujiya",
       "editor": "textfield"
     },
+    "statsMode": {
+      "title": "통계 모드",
+      "type": "boolean",
+      "description": "ON으로 설정하면 개별 상품을 출력하지 않고 집계 결과만 출력합니다",
+      "default": false,
+      "editor": "checkbox"
+    },
+    "statsKeyword": {
+      "title": "통계 대상 키워드(부분 일치)",
+      "type": "string",
+      "description": "지정한 경우 상품 제목에 이 문자열을 포함한 상품만 통계 대상으로 합니다",
+      "prefill": "",
+      "editor": "textfield"
+    },
     "proxyConfiguration": {
       "title": "프록시 설정",
       "type": "object",
